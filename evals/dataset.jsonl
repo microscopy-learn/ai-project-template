@@ -1,0 +1,10 @@
+{"id": "kg-1", "question": "What language is used to write ontologies?", "expected_source": "knowledge-graphs.md", "must_include": ["OWL"]}
+{"id": "kg-2", "question": "Which query language does Neo4j use?", "expected_source": "knowledge-graphs.md", "must_include": ["Cypher"]}
+{"id": "kg-3", "question": "How do you validate a graph against rules?", "expected_source": "knowledge-graphs.md", "must_include": ["SHACL"]}
+{"id": "kg-4", "question": "What standard is used for taxonomies and thesauri?", "expected_source": "knowledge-graphs.md", "must_include": ["SKOS"]}
+{"id": "rag-1", "question": "What does hybrid retrieval combine?", "expected_source": "rag.md", "must_include": ["vector"]}
+{"id": "rag-2", "question": "How does GraphRAG use a knowledge graph?", "expected_source": "rag.md", "must_include": ["relationships"]}
+{"id": "rag-3", "question": "How should a RAG system be evaluated?", "expected_source": "rag.md", "must_include": ["retrieval"]}
+{"id": "gov-1", "question": "Who is responsible for the quality of a dataset?", "expected_source": "data-governance.md", "must_include": ["steward"]}
+{"id": "gov-2", "question": "What does lineage show?", "expected_source": "data-governance.md", "must_include": ["came from"]}
+{"id": "gov-3", "question": "What does a model card document?", "expected_source": "data-governance.md", "must_include": ["limitations"]}
