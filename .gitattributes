@@ -1,0 +1,8 @@
+# Normalise line endings.
+* text=auto eol=lf
+
+# If you must keep large binaries in this repo, track them with Git LFS (`git lfs install` first).
+# Free GitHub accounts get 10 GiB of LFS storage and 10 GiB of bandwidth a month.
+# Prefer Hugging Face Hub for model weights and datasets.
+# *.onnx filter=lfs diff=lfs merge=lfs -text
+# *.parquet filter=lfs diff=lfs merge=lfs -text
