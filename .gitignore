@@ -1,0 +1,34 @@
+# Secrets
+.env
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Data and models: publish to Hugging Face Hub and link from the README
+models/
+*.safetensors
+*.bin
+*.pt
+*.gguf
+data/raw/
+data/private/
+
+# Eval runs: keep results.md, ignore the bulky JSON
+evals/results/results.json
+
+# OS and editors
+.DS_Store
+.idea/
+.vscode/
